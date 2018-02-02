@@ -1,0 +1,9 @@
+c:\users\craze\documents\visual studio 2015\Projects\Calculation2\Calculation2\bin\Debug\Calculation2.exe.config
+c:\users\craze\documents\visual studio 2015\Projects\Calculation2\Calculation2\bin\Debug\Calculation2.exe
+c:\users\craze\documents\visual studio 2015\Projects\Calculation2\Calculation2\bin\Debug\Calculation2.pdb
+c:\users\craze\documents\visual studio 2015\Projects\Calculation2\Calculation2\obj\Debug\Calculation2.csprojResolveAssemblyReference.cache
+c:\users\craze\documents\visual studio 2015\Projects\Calculation2\Calculation2\obj\Debug\Calculation2.Form1.resources
+c:\users\craze\documents\visual studio 2015\Projects\Calculation2\Calculation2\obj\Debug\Calculation2.Properties.Resources.resources
+c:\users\craze\documents\visual studio 2015\Projects\Calculation2\Calculation2\obj\Debug\Calculation2.csproj.GenerateResource.Cache
+c:\users\craze\documents\visual studio 2015\Projects\Calculation2\Calculation2\obj\Debug\Calculation2.exe
+c:\users\craze\documents\visual studio 2015\Projects\Calculation2\Calculation2\obj\Debug\Calculation2.pdb
