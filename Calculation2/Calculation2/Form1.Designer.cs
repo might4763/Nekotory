@@ -47,6 +47,8 @@
             this.bPlus = new System.Windows.Forms.Button();
             this.bDot = new System.Windows.Forms.Button();
             this.b0 = new System.Windows.Forms.Button();
+            this.logInput = new System.Windows.Forms.Label();
+            this.bOpposite = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // input
@@ -55,7 +57,7 @@
             this.input.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.input.Location = new System.Drawing.Point(4, 4);
             this.input.Name = "input";
-            this.input.Size = new System.Drawing.Size(522, 85);
+            this.input.Size = new System.Drawing.Size(522, 107);
             this.input.TabIndex = 0;
             this.input.Text = "0";
             this.input.TextAlign = System.Drawing.ContentAlignment.BottomRight;
@@ -259,12 +261,33 @@
             this.b0.UseVisualStyleBackColor = true;
             this.b0.Click += new System.EventHandler(this.b0_Click);
             // 
+            // logInput
+            // 
+            this.logInput.Location = new System.Drawing.Point(10, 16);
+            this.logInput.Name = "logInput";
+            this.logInput.Size = new System.Drawing.Size(502, 26);
+            this.logInput.TabIndex = 21;
+            this.logInput.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+            // 
+            // bOpposite
+            // 
+            this.bOpposite.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bOpposite.Location = new System.Drawing.Point(24, 414);
+            this.bOpposite.Name = "bOpposite";
+            this.bOpposite.Size = new System.Drawing.Size(70, 70);
+            this.bOpposite.TabIndex = 22;
+            this.bOpposite.Text = "+-";
+            this.bOpposite.UseVisualStyleBackColor = true;
+            this.bOpposite.Click += new System.EventHandler(this.bOpposite_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(534, 545);
+            this.Controls.Add(this.bOpposite);
+            this.Controls.Add(this.logInput);
             this.Controls.Add(this.bSum);
             this.Controls.Add(this.bPlus);
             this.Controls.Add(this.bDot);
@@ -311,6 +334,8 @@
         private System.Windows.Forms.Button bPlus;
         private System.Windows.Forms.Button bDot;
         private System.Windows.Forms.Button b0;
+        private System.Windows.Forms.Label logInput;
+        private System.Windows.Forms.Button bOpposite;
     }
 }
 
