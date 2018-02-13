@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.input = new System.Windows.Forms.Label();
-            this.b7 = new System.Windows.Forms.Button();
             this.b8 = new System.Windows.Forms.Button();
             this.b9 = new System.Windows.Forms.Button();
             this.bDiv = new System.Windows.Forms.Button();
@@ -48,245 +48,168 @@
             this.bDot = new System.Windows.Forms.Button();
             this.b0 = new System.Windows.Forms.Button();
             this.logInput = new System.Windows.Forms.Label();
-            this.bOpposite = new System.Windows.Forms.Button();
+            this.bNegate = new System.Windows.Forms.Button();
+            this.b7 = new System.Windows.Forms.Button();
+            this.tempsum = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // input
             // 
             this.input.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.input.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.input.Location = new System.Drawing.Point(4, 4);
+            resources.ApplyResources(this.input, "input");
             this.input.Name = "input";
-            this.input.Size = new System.Drawing.Size(522, 107);
-            this.input.TabIndex = 0;
-            this.input.Text = "0";
-            this.input.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.input.Click += new System.EventHandler(this.input_Click);
-            // 
-            // b7
-            // 
-            this.b7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b7.Location = new System.Drawing.Point(24, 125);
-            this.b7.Name = "b7";
-            this.b7.Size = new System.Drawing.Size(70, 70);
-            this.b7.TabIndex = 1;
-            this.b7.Text = "7";
-            this.b7.UseVisualStyleBackColor = true;
-            this.b7.Click += new System.EventHandler(this.button1_Click);
             // 
             // b8
             // 
-            this.b8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b8.Location = new System.Drawing.Point(117, 125);
+            resources.ApplyResources(this.b8, "b8");
             this.b8.Name = "b8";
-            this.b8.Size = new System.Drawing.Size(70, 70);
-            this.b8.TabIndex = 2;
-            this.b8.Text = "8";
             this.b8.UseVisualStyleBackColor = true;
             this.b8.Click += new System.EventHandler(this.b8_Click);
             // 
             // b9
             // 
-            this.b9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b9.Location = new System.Drawing.Point(213, 125);
+            resources.ApplyResources(this.b9, "b9");
             this.b9.Name = "b9";
-            this.b9.Size = new System.Drawing.Size(70, 70);
-            this.b9.TabIndex = 3;
-            this.b9.Text = "9";
             this.b9.UseVisualStyleBackColor = true;
             this.b9.Click += new System.EventHandler(this.b9_Click);
             // 
             // bDiv
             // 
-            this.bDiv.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bDiv.Location = new System.Drawing.Point(312, 125);
+            resources.ApplyResources(this.bDiv, "bDiv");
             this.bDiv.Name = "bDiv";
-            this.bDiv.Size = new System.Drawing.Size(70, 70);
-            this.bDiv.TabIndex = 4;
-            this.bDiv.Text = "/";
             this.bDiv.UseVisualStyleBackColor = true;
             this.bDiv.Click += new System.EventHandler(this.bDiv_Click);
             // 
             // bDel
             // 
-            this.bDel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bDel.Location = new System.Drawing.Point(413, 125);
+            resources.ApplyResources(this.bDel, "bDel");
             this.bDel.Name = "bDel";
-            this.bDel.Size = new System.Drawing.Size(70, 70);
-            this.bDel.TabIndex = 5;
-            this.bDel.Text = "Del";
             this.bDel.UseVisualStyleBackColor = true;
             this.bDel.Click += new System.EventHandler(this.bDel_Click);
             // 
             // bClear
             // 
-            this.bClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bClear.Location = new System.Drawing.Point(413, 224);
+            resources.ApplyResources(this.bClear, "bClear");
             this.bClear.Name = "bClear";
-            this.bClear.Size = new System.Drawing.Size(70, 70);
-            this.bClear.TabIndex = 10;
-            this.bClear.Text = "C";
             this.bClear.UseVisualStyleBackColor = true;
             this.bClear.Click += new System.EventHandler(this.bClear_Click);
             // 
             // bMul
             // 
-            this.bMul.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bMul.Location = new System.Drawing.Point(312, 224);
+            resources.ApplyResources(this.bMul, "bMul");
             this.bMul.Name = "bMul";
-            this.bMul.Size = new System.Drawing.Size(70, 70);
-            this.bMul.TabIndex = 9;
-            this.bMul.Text = "X";
             this.bMul.UseVisualStyleBackColor = true;
             this.bMul.Click += new System.EventHandler(this.bMul_Click);
             // 
             // b6
             // 
-            this.b6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b6.Location = new System.Drawing.Point(213, 224);
+            resources.ApplyResources(this.b6, "b6");
             this.b6.Name = "b6";
-            this.b6.Size = new System.Drawing.Size(70, 70);
-            this.b6.TabIndex = 8;
-            this.b6.Text = "6";
             this.b6.UseVisualStyleBackColor = true;
             this.b6.Click += new System.EventHandler(this.b6_Click);
             // 
             // b5
             // 
-            this.b5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b5.Location = new System.Drawing.Point(117, 224);
+            resources.ApplyResources(this.b5, "b5");
             this.b5.Name = "b5";
-            this.b5.Size = new System.Drawing.Size(70, 70);
-            this.b5.TabIndex = 7;
-            this.b5.Text = "5";
             this.b5.UseVisualStyleBackColor = true;
             this.b5.Click += new System.EventHandler(this.b5_Click);
             // 
             // b4
             // 
-            this.b4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b4.Location = new System.Drawing.Point(24, 224);
+            resources.ApplyResources(this.b4, "b4");
             this.b4.Name = "b4";
-            this.b4.Size = new System.Drawing.Size(70, 70);
-            this.b4.TabIndex = 6;
-            this.b4.Text = "4";
             this.b4.UseVisualStyleBackColor = true;
             this.b4.Click += new System.EventHandler(this.b4_Click);
             // 
             // bMinus
             // 
-            this.bMinus.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bMinus.Location = new System.Drawing.Point(312, 317);
+            resources.ApplyResources(this.bMinus, "bMinus");
             this.bMinus.Name = "bMinus";
-            this.bMinus.Size = new System.Drawing.Size(70, 70);
-            this.bMinus.TabIndex = 14;
-            this.bMinus.Text = "-";
             this.bMinus.UseVisualStyleBackColor = true;
             this.bMinus.Click += new System.EventHandler(this.bMinus_Click);
             // 
             // b3
             // 
-            this.b3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b3.Location = new System.Drawing.Point(213, 317);
+            resources.ApplyResources(this.b3, "b3");
             this.b3.Name = "b3";
-            this.b3.Size = new System.Drawing.Size(70, 70);
-            this.b3.TabIndex = 13;
-            this.b3.Text = "3";
             this.b3.UseVisualStyleBackColor = true;
             this.b3.Click += new System.EventHandler(this.b3_Click);
             // 
             // b2
             // 
-            this.b2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b2.Location = new System.Drawing.Point(117, 317);
+            resources.ApplyResources(this.b2, "b2");
             this.b2.Name = "b2";
-            this.b2.Size = new System.Drawing.Size(70, 70);
-            this.b2.TabIndex = 12;
-            this.b2.Text = "2";
             this.b2.UseVisualStyleBackColor = true;
             this.b2.Click += new System.EventHandler(this.b2_Click);
             // 
             // b1
             // 
-            this.b1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b1.Location = new System.Drawing.Point(24, 317);
+            resources.ApplyResources(this.b1, "b1");
             this.b1.Name = "b1";
-            this.b1.Size = new System.Drawing.Size(70, 70);
-            this.b1.TabIndex = 11;
-            this.b1.Text = "1";
             this.b1.UseVisualStyleBackColor = true;
             this.b1.Click += new System.EventHandler(this.b1_Click);
             // 
             // bSum
             // 
-            this.bSum.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bSum.Location = new System.Drawing.Point(413, 414);
+            resources.ApplyResources(this.bSum, "bSum");
             this.bSum.Name = "bSum";
-            this.bSum.Size = new System.Drawing.Size(70, 70);
-            this.bSum.TabIndex = 20;
-            this.bSum.Text = "=";
             this.bSum.UseVisualStyleBackColor = true;
             this.bSum.Click += new System.EventHandler(this.bSum_Click);
             // 
             // bPlus
             // 
-            this.bPlus.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bPlus.Location = new System.Drawing.Point(312, 414);
+            resources.ApplyResources(this.bPlus, "bPlus");
             this.bPlus.Name = "bPlus";
-            this.bPlus.Size = new System.Drawing.Size(70, 70);
-            this.bPlus.TabIndex = 19;
-            this.bPlus.Text = "+";
             this.bPlus.UseVisualStyleBackColor = true;
             this.bPlus.Click += new System.EventHandler(this.bPlus_Click);
             // 
             // bDot
             // 
-            this.bDot.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bDot.Location = new System.Drawing.Point(213, 414);
+            resources.ApplyResources(this.bDot, "bDot");
             this.bDot.Name = "bDot";
-            this.bDot.Size = new System.Drawing.Size(70, 70);
-            this.bDot.TabIndex = 18;
-            this.bDot.Text = ".";
             this.bDot.UseVisualStyleBackColor = true;
             this.bDot.Click += new System.EventHandler(this.bDot_Click);
             // 
             // b0
             // 
-            this.b0.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b0.Location = new System.Drawing.Point(117, 414);
+            resources.ApplyResources(this.b0, "b0");
             this.b0.Name = "b0";
-            this.b0.Size = new System.Drawing.Size(70, 70);
-            this.b0.TabIndex = 17;
-            this.b0.Text = "0";
             this.b0.UseVisualStyleBackColor = true;
             this.b0.Click += new System.EventHandler(this.b0_Click);
             // 
             // logInput
             // 
-            this.logInput.Location = new System.Drawing.Point(10, 16);
+            resources.ApplyResources(this.logInput, "logInput");
             this.logInput.Name = "logInput";
-            this.logInput.Size = new System.Drawing.Size(502, 26);
-            this.logInput.TabIndex = 21;
-            this.logInput.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             // 
-            // bOpposite
+            // bNegate
             // 
-            this.bOpposite.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bOpposite.Location = new System.Drawing.Point(24, 414);
-            this.bOpposite.Name = "bOpposite";
-            this.bOpposite.Size = new System.Drawing.Size(70, 70);
-            this.bOpposite.TabIndex = 22;
-            this.bOpposite.Text = "+-";
-            this.bOpposite.UseVisualStyleBackColor = true;
-            this.bOpposite.Click += new System.EventHandler(this.bOpposite_Click);
+            resources.ApplyResources(this.bNegate, "bNegate");
+            this.bNegate.Name = "bNegate";
+            this.bNegate.UseVisualStyleBackColor = true;
+            this.bNegate.Click += new System.EventHandler(this.bNegate_Click);
+            // 
+            // b7
+            // 
+            resources.ApplyResources(this.b7, "b7");
+            this.b7.Name = "b7";
+            this.b7.UseVisualStyleBackColor = true;
+            this.b7.Click += new System.EventHandler(this.b7_Click);
+            // 
+            // tempsum
+            // 
+            resources.ApplyResources(this.tempsum, "tempsum");
+            this.tempsum.Name = "tempsum";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(534, 545);
-            this.Controls.Add(this.bOpposite);
+            this.Controls.Add(this.tempsum);
+            this.Controls.Add(this.b7);
+            this.Controls.Add(this.bNegate);
             this.Controls.Add(this.logInput);
             this.Controls.Add(this.bSum);
             this.Controls.Add(this.bPlus);
@@ -305,10 +228,12 @@
             this.Controls.Add(this.bDiv);
             this.Controls.Add(this.b9);
             this.Controls.Add(this.b8);
-            this.Controls.Add(this.b7);
             this.Controls.Add(this.input);
+            this.KeyPreview = true;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Text = "Calculator";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyDown);
             this.ResumeLayout(false);
 
         }
@@ -316,7 +241,6 @@
         #endregion
 
         private System.Windows.Forms.Label input;
-        private System.Windows.Forms.Button b7;
         private System.Windows.Forms.Button b8;
         private System.Windows.Forms.Button b9;
         private System.Windows.Forms.Button bDiv;
@@ -335,7 +259,9 @@
         private System.Windows.Forms.Button bDot;
         private System.Windows.Forms.Button b0;
         private System.Windows.Forms.Label logInput;
-        private System.Windows.Forms.Button bOpposite;
+        private System.Windows.Forms.Button bNegate;
+        private System.Windows.Forms.Button b7;
+        private System.Windows.Forms.Label tempsum;
     }
 }
 

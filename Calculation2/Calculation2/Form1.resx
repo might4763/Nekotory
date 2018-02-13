@@ -117,4 +117,628 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="input.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 30pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="input.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="input.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="input.Size" type="System.Drawing.Size, System.Drawing">
+    <value>545, 107</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="input.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="input.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="input.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomRight</value>
+  </data>
+  <data name="&gt;&gt;input.Name" xml:space="preserve">
+    <value>input</value>
+  </data>
+  <data name="&gt;&gt;input.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;input.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;input.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="b8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt</value>
+  </data>
+  <data name="b8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 146</value>
+  </data>
+  <data name="b8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="b8.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="b8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;b8.Name" xml:space="preserve">
+    <value>b8</value>
+  </data>
+  <data name="&gt;&gt;b8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;b8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;b8.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="b9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt</value>
+  </data>
+  <data name="b9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 146</value>
+  </data>
+  <data name="b9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="b9.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="b9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;b9.Name" xml:space="preserve">
+    <value>b9</value>
+  </data>
+  <data name="&gt;&gt;b9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;b9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;b9.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="bDiv.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt</value>
+  </data>
+  <data name="bDiv.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 146</value>
+  </data>
+  <data name="bDiv.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="bDiv.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="bDiv.Text" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="&gt;&gt;bDiv.Name" xml:space="preserve">
+    <value>bDiv</value>
+  </data>
+  <data name="&gt;&gt;bDiv.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bDiv.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bDiv.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="bDel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt</value>
+  </data>
+  <data name="bDel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>436, 146</value>
+  </data>
+  <data name="bDel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="bDel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="bDel.Text" xml:space="preserve">
+    <value>Del</value>
+  </data>
+  <data name="&gt;&gt;bDel.Name" xml:space="preserve">
+    <value>bDel</value>
+  </data>
+  <data name="&gt;&gt;bDel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bDel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bDel.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="bClear.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt</value>
+  </data>
+  <data name="bClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>436, 245</value>
+  </data>
+  <data name="bClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="bClear.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="bClear.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="&gt;&gt;bClear.Name" xml:space="preserve">
+    <value>bClear</value>
+  </data>
+  <data name="&gt;&gt;bClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bClear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bClear.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="bMul.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt</value>
+  </data>
+  <data name="bMul.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 245</value>
+  </data>
+  <data name="bMul.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="bMul.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="bMul.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="&gt;&gt;bMul.Name" xml:space="preserve">
+    <value>bMul</value>
+  </data>
+  <data name="&gt;&gt;bMul.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bMul.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bMul.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="b6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt</value>
+  </data>
+  <data name="b6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 245</value>
+  </data>
+  <data name="b6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="b6.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="b6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;b6.Name" xml:space="preserve">
+    <value>b6</value>
+  </data>
+  <data name="&gt;&gt;b6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;b6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;b6.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="b5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt</value>
+  </data>
+  <data name="b5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 245</value>
+  </data>
+  <data name="b5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="b5.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="b5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;b5.Name" xml:space="preserve">
+    <value>b5</value>
+  </data>
+  <data name="&gt;&gt;b5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;b5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;b5.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="b4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt</value>
+  </data>
+  <data name="b4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 245</value>
+  </data>
+  <data name="b4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="b4.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="b4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;b4.Name" xml:space="preserve">
+    <value>b4</value>
+  </data>
+  <data name="&gt;&gt;b4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;b4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;b4.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="bMinus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt</value>
+  </data>
+  <data name="bMinus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 338</value>
+  </data>
+  <data name="bMinus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="bMinus.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="bMinus.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;bMinus.Name" xml:space="preserve">
+    <value>bMinus</value>
+  </data>
+  <data name="&gt;&gt;bMinus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bMinus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bMinus.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="b3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt</value>
+  </data>
+  <data name="b3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 338</value>
+  </data>
+  <data name="b3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="b3.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="b3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;b3.Name" xml:space="preserve">
+    <value>b3</value>
+  </data>
+  <data name="&gt;&gt;b3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;b3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;b3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="b2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt</value>
+  </data>
+  <data name="b2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 338</value>
+  </data>
+  <data name="b2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="b2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="b2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;b2.Name" xml:space="preserve">
+    <value>b2</value>
+  </data>
+  <data name="&gt;&gt;b2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;b2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;b2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="b1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt</value>
+  </data>
+  <data name="b1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 338</value>
+  </data>
+  <data name="b1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="b1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="b1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;b1.Name" xml:space="preserve">
+    <value>b1</value>
+  </data>
+  <data name="&gt;&gt;b1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;b1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;b1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="bSum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt</value>
+  </data>
+  <data name="bSum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>436, 435</value>
+  </data>
+  <data name="bSum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="bSum.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="bSum.Text" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="&gt;&gt;bSum.Name" xml:space="preserve">
+    <value>bSum</value>
+  </data>
+  <data name="&gt;&gt;bSum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bSum.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bSum.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="bPlus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt</value>
+  </data>
+  <data name="bPlus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 435</value>
+  </data>
+  <data name="bPlus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="bPlus.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="bPlus.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="&gt;&gt;bPlus.Name" xml:space="preserve">
+    <value>bPlus</value>
+  </data>
+  <data name="&gt;&gt;bPlus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bPlus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bPlus.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="bDot.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt</value>
+  </data>
+  <data name="bDot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 435</value>
+  </data>
+  <data name="bDot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="bDot.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="bDot.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;bDot.Name" xml:space="preserve">
+    <value>bDot</value>
+  </data>
+  <data name="&gt;&gt;bDot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bDot.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bDot.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="b0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt</value>
+  </data>
+  <data name="b0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 435</value>
+  </data>
+  <data name="b0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="b0.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="b0.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;b0.Name" xml:space="preserve">
+    <value>b0</value>
+  </data>
+  <data name="&gt;&gt;b0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;b0.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;b0.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="logInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 16</value>
+  </data>
+  <data name="logInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>514, 26</value>
+  </data>
+  <data name="logInput.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="logInput.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomRight</value>
+  </data>
+  <data name="&gt;&gt;logInput.Name" xml:space="preserve">
+    <value>logInput</value>
+  </data>
+  <data name="&gt;&gt;logInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;logInput.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;logInput.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="bNegate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt</value>
+  </data>
+  <data name="bNegate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 435</value>
+  </data>
+  <data name="bNegate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="bNegate.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="bNegate.Text" xml:space="preserve">
+    <value>±</value>
+  </data>
+  <data name="&gt;&gt;bNegate.Name" xml:space="preserve">
+    <value>bNegate</value>
+  </data>
+  <data name="&gt;&gt;bNegate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bNegate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bNegate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="b7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt</value>
+  </data>
+  <data name="b7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="b7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 146</value>
+  </data>
+  <data name="b7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="b7.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="b7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;b7.Name" xml:space="preserve">
+    <value>b7</value>
+  </data>
+  <data name="&gt;&gt;b7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;b7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;b7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tempsum.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tempsum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 117</value>
+  </data>
+  <data name="tempsum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>514, 26</value>
+  </data>
+  <data name="tempsum.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="tempsum.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomRight</value>
+  </data>
+  <data name="&gt;&gt;tempsum.Name" xml:space="preserve">
+    <value>tempsum</value>
+  </data>
+  <data name="&gt;&gt;tempsum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tempsum.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tempsum.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>561, 545</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Calculator</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
