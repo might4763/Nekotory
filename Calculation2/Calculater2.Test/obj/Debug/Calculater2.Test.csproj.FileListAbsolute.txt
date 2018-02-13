@@ -1,0 +1,9 @@
+C:\Users\Craze\Documents\Visual Studio 2015\Projects\Calculation2\Calculater2.Test\bin\Debug\Calculater2.Test.dll
+C:\Users\Craze\Documents\Visual Studio 2015\Projects\Calculation2\Calculater2.Test\bin\Debug\Calculater2.Test.pdb
+C:\Users\Craze\Documents\Visual Studio 2015\Projects\Calculation2\Calculater2.Test\bin\Debug\Calculation2.exe
+C:\Users\Craze\Documents\Visual Studio 2015\Projects\Calculation2\Calculater2.Test\bin\Debug\nunit.framework.dll
+C:\Users\Craze\Documents\Visual Studio 2015\Projects\Calculation2\Calculater2.Test\bin\Debug\Calculation2.pdb
+C:\Users\Craze\Documents\Visual Studio 2015\Projects\Calculation2\Calculater2.Test\bin\Debug\nunit.framework.xml
+C:\Users\Craze\Documents\Visual Studio 2015\Projects\Calculation2\Calculater2.Test\obj\Debug\Calculater2.Test.csprojResolveAssemblyReference.cache
+C:\Users\Craze\Documents\Visual Studio 2015\Projects\Calculation2\Calculater2.Test\obj\Debug\Calculater2.Test.dll
+C:\Users\Craze\Documents\Visual Studio 2015\Projects\Calculation2\Calculater2.Test\obj\Debug\Calculater2.Test.pdb
